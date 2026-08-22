@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "enabled": false,
+  "testMode": false,
+  "rewardedEnabled": false,
+  "interstitialEnabled": false,
+  "houseAdsEnabled": false,
+  "removeAdsEnabled": false
+}
