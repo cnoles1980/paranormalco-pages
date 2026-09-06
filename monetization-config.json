@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "enabled": false,
+  "enabled": true,
   "testMode": false,
-  "rewardedEnabled": false,
+  "rewardedEnabled": true,
+  "rewardedPlacements": {
+    "facility-speed-boost": {
+      "enabled": true
+    },
+    "event-speed-boost": {
+      "enabled": true
+    },
+    "other-side-speed-boost": {
+      "enabled": true,
+      "adUnitId": "ca-app-pub-5676028087805239/5650433374"
+    }
+  },
   "interstitialEnabled": false,
   "houseAdsEnabled": false,
   "removeAdsEnabled": false
