@@ -4,7 +4,8 @@ Official public support, privacy, advertising authorization, and launch configur
 
 - `privacy.html`: App Store privacy-policy URL
 - `support.html`: App Store support URL
-- `monetization-config.json`: remotely readable launch-safe monetization overrides
+- `monetization-config.json`: legacy launch-safe overrides; rewarded ads remain disabled for older builds
+- `monetization-config-1.2.1.json`: repaired-build overrides with production rewarded inventory enabled
 - `app-ads.txt`: added once the final AdMob publisher ID is available
 
-The monetization configuration launches disabled. The app also enforces non-remote safety ceilings locally.
+Each app release uses an explicit configuration path so a repaired build can be enabled without re-enabling ads in older binaries. The app also enforces non-remote safety ceilings locally.
