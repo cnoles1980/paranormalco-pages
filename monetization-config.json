@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "enabled": true,
   "testMode": false,
-  "rewardedEnabled": true,
+  "rewardedEnabled": false,
   "rewardedPlacements": {
     "facility-speed-boost": {
       "enabled": true
